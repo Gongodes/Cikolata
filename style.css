@@ -1,0 +1,137 @@
+
+
+body {
+  background-image: linear-gradient(to bottom right, rgba(187, 95, 34, 0.781) , rgb(196, 189, 189));
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+    .fullscreen-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: -100;
+    }
+    #bien{
+      color:gold;
+      font-size: 60px;
+      font-family: 'Dancing Script', cursive;}
+
+      #quinta{color: gold;
+        ; font-size: 30px;}
+      
+
+
+     
+    #titulo{color:gold ;
+        font-size: 50px;
+      font-family: 'Dancing Script', cursive;}
+     
+    @media (min-aspect-ratio: 16/9) {
+      .fullscreen-video {
+        width: 100%;
+        height: auto;
+      }
+    }
+     
+    @media (max-aspect-ratio: 16/9) {
+      .fullscreen-video {
+        width: auto;
+        height: 100%;
+      }
+    }
+    html {
+      
+      height: 100%;
+  }
+  
+ 
+  
+  header {
+      text-align: center;
+      padding: 40px 0;
+  }
+  img {
+      max-width: 100%;
+  }
+  .contenedor {
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  h2 {
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+  
+.lista-productos {
+    padding: 0;
+    list-style: none;
+}
+.lista-productos li {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista-productos li:nth-child(2n+1) {
+    clear: both;
+}
+  
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+  
+
+  #fecha{color:gold  ;
+    font-size: 25px;
+    animation-duration: 3s;
+  }
+
+  #foto{animation-duration: 2s;
+  }
+
+  .precio{color:hsla(0, 23%, 30%, 0.774);
+    font-size: 25px;}
+
+
+    video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-position: center;
+  object-fit: cover;
+}
+
+#imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:10px solid #666;
+}
+
+#imgRedonda2 {
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    border:3px solid #666;
+}
+
+
+video {
+border: 5px solid black;
+}
